@@ -24,7 +24,7 @@ if [ ${answer} = "y" ]
     else
         echo "Cool!!!"
 fi
-echo ${content} >> ~/Work/Github/100-days-of-code/summa.md
+echo ${content} >> ~/Work/Github/100-days-of-code/log.md
 echo "Log Added."
 
 while [ "$#" -gt "0" ]
