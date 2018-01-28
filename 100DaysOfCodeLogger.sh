@@ -5,7 +5,7 @@ day=`date +%u`
 currDate=`date +%b-%d-%y`
 echo "How many days has it been? \c"
 read numDays
-content="\n\n### Day ${numDays}: ${currDate} ${weekDays[day]}"
+content="\n\n### Day ${numDays}: ${currDate} ${weekDays[day%7]}"
 echo "What is today's progress? \c"
 read progress
 content="${content} \n**Today's Progress**: ${progress}"
